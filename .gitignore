@@ -1,34 +1,111 @@
+# =========================
+# Projeto Compiladores
+# =========================
+
+# Executáveis gerados no Linux
+exec
+scanner
+parser
+compilador
+a.out
+
+# Arquivos gerados pelo Flex
+lex.yy.c
+lex.yy.cc
+
+# Arquivos gerados pelo Bison/Yacc
+y.tab.c
+y.tab.h
+*.tab.c
+*.tab.h
+*.output
+
+# Diretórios de build
+build/
+bin/
+obj/
+
+# Arquivos temporários / logs
+*.log
+*.tmp
+*.temp
+
+# Core dumps
+core
+core.*
+
+# GDB
+.gdb_history
+
+# VS Code
+.vscode/
+
+# JetBrains / CLion
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+
+# =========================
 # Prerequisites
+# =========================
 *.d
 
+
+# =========================
 # Object files
+# =========================
 *.o
 *.ko
 *.obj
 *.elf
 
+
+# =========================
 # Linker output
+# =========================
 *.ilk
 *.map
 *.exp
 
+
+# =========================
 # Precompiled Headers
+# =========================
 *.gch
 *.pch
 
+
+# =========================
 # Libraries
+# =========================
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+
+# =========================
+# Shared objects
+# =========================
 *.dll
 *.so
 *.so.*
 *.dylib
 
+
+# =========================
 # Executables
+# =========================
 *.exe
 *.out
 *.app
@@ -36,13 +113,20 @@
 *.x86_64
 *.hex
 
+
+# =========================
 # Debug files
+# =========================
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.dwo
 
+
+# =========================
 # Kernel Module Compile Results
+# =========================
 *.mod*
 *.cmd
 .tmp_versions/
@@ -51,7 +135,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
-*.dwo
 
-Exemplos_FLEX
+# =========================
+# Material de exemplo
+# =========================
+Exemplos_FLEX/
